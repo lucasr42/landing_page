@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.765);
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navLinks {
+    display: flex;
+    margin-right: 50px;
+    gap: 20px;
+    align-items: center;
+}
+
+.navLinks a {
+    color: white;
+    font-size: 24px;
+    font-weight: 700px;
+}
+
+#headerLogo {
+    height: 75px;
+    width: 75px;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+/* All Links and Lists */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a:link {
+    text-decoration: none;
+}
