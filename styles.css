@@ -91,7 +91,15 @@ header h1 {
 .cruiseDestinations img {
     height: 125px;
     width: 125px;
+    transition: 2s
 }
+
+.cruiseDestinations img:hover {
+    height: 130px;
+    width: 130px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
 /* All Links and Lists */
 ul {
     list-style-type: none;
