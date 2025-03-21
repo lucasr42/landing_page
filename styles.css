@@ -78,12 +78,20 @@ header h1 {
 .cruiseDestinations ul {
     display: flex;
     gap: 50px;
+    flex-wrap: wrap;
+    flex: 1 0 auto;
 }
 
 .cruiseDestinations ul li p {
     text-align: center;
+    font-size: 20px;
+    font-weight: 500px;
 }
 
+.cruiseDestinations img {
+    height: 125px;
+    width: 125px;
+}
 /* All Links and Lists */
 ul {
     list-style-type: none;
