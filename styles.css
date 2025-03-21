@@ -1,10 +1,13 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 header {
     background-color: rgba(0, 0, 0, 0.765);
+    color: white;
+    padding: 0 100px;
 }
 
 header nav {
@@ -15,13 +18,13 @@ header nav {
 .navLinks {
     display: flex;
     margin-right: 50px;
-    gap: 20px;
+    gap: 50px;
     align-items: center;
 }
 
 .navLinks a {
     color: white;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 700px;
 }
 
@@ -29,7 +32,32 @@ header nav {
     height: 75px;
     width: 75px;
     border-radius: 50px;
-    margin: 10px;
+    margin: 20px 50px;
+}
+
+header h1 {
+    font-size: 50px;
+    font-weight: 900px;
+    margin-bottom: 0;
+}
+
+.heroSectionContainer {
+    display: flex;
+    justify-content: space-around;
+    flex: 1 0 auto;
+    margin: 50px;
+    gap: 100px;
+}
+
+.leftContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.heroSectionContainer img {
+    border-radius: 15px;
+    height: 400px;
+    width: 400;
 }
 
 /* All Links and Lists */
@@ -41,4 +69,10 @@ ul {
 
 a:link {
     text-decoration: none;
+}
+
+button {
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
 }
