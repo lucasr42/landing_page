@@ -5,6 +5,7 @@ body {
     height: 100%;
 }
 
+/* Hero Header Section */
 header {
     background-color: rgba(0, 0, 0, 0.765);
     color: white;
@@ -62,16 +63,19 @@ header h1 {
     width: 400;
 }
 
+/* Cruise Destination Cards */
 .cruiseDestinations {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     gap: 25px;
     margin: 50px;
+    height: 100vh;
 }
 
 .cruiseDestinations h1 {
-    font-size: 50px;
+    font-size: 75px;
     font-weight: 900px;
 }
 
@@ -99,6 +103,56 @@ header h1 {
     width: 130px;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
+
+/* Quote Section */
+.quoteSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(184, 36, 10);
+    padding: 0 100px;
+    height: 100vh;
+}
+
+.quoteSection blockquote {
+    font-size: 50px;
+    font-weight: 900px;
+    color: white;
+}
+
+.callToActionSection {
+    display: flex;
+    background-color: rgb(157, 157, 245);
+    margin: 50px 100px;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.callToActionSection h1 {
+    font-size: 50px;
+    font-weight: 900px;
+    color: white;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.callToActionSection p {
+    font-size: 18px;
+    font-weight: 500px;
+    color: white;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: rgb(189, 199, 199);
+    font-size: 14px;
+    font-weight: 300px;
+    color: white;
+}
+
 
 /* All Links and Lists */
 ul {
